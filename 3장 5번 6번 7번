@@ -1,0 +1,9 @@
+7번
+import time
+
+fseconds=time.time()//60
+minute=fseconds%60
+hour=fseconds//60%24
+
+print("현재 시간(영국 그리니치 시각):", int(hour), "시", int(minute),"분")
+현재 시간(영국 그리니치 시각): 8 시 37 분
